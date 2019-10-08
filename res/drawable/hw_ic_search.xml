@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true">
+        <bitmap android:src="@drawable/hw_ic_search_pressed" android:tint="@color/hw_color_primary_dark"/>
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/hw_ic_search_disabled" android:tint="@color/hw_color_primary_disabled"/>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/hw_ic_search_normal"  android:tint="@color/hw_color_primary"/>
+    </item>
+
+</selector>

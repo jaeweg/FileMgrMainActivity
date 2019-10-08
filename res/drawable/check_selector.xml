@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <bitmap android:src="@drawable/hw_btn_multicheck_on" android:tint="@color/back_btn_color"/>
+    </item>
+    <item android:state_checked="false">
+        <bitmap android:src="@drawable/hw_btn_multicheck_off" android:tint="@color/back_btn_color"/>
+    </item>
+</selector>

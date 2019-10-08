@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/hw_textfield_searchview_disabled" android:tint="@color/hw_color_primary_disabled_inner"/>
+    </item>
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/hw_textfield_searchview_pressed" android:tint="@color/hw_color_primary"/>
+    </item>
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/hw_textfield_searchview_focused" android:tint="@color/hw_color_primary"/>
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/hw_textfield_searchview_normal" android:tint="@color/hw_color_primary"/>
+    </item>
+
+</selector>

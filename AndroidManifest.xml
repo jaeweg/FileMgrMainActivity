@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.aliyunos.filemanager"
+  android:versionCode="20160322"
+  android:versionName="2.2.2">
+
+  <original-package android:name="com.aliyunos.filemanager" />
+
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+  <uses-permission android:name="android.permission.READ_MEDIA_STORAGE" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+  <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+  <uses-permission android:name="android.permission.NFC"/>
+  <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+  <uses-permission android:name="com.aliyunos.filemanager.permissions.READ_THEME"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="com.aliyun.permission.TYID_SERVICE" />
+  <uses-permission android:name="com.aliyun.permission.TYID_MGR_SERVICE" />
+
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="com.yunos.sync.manager.MANAGE_CLOUD_DATA" />
+
+  <application
+    android:name=".FileMgrApplication"
+    android:description="@string/app_description"
+    android:icon="@drawable/ic_launcher"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:allowBackup="true">
+    <meta-data
+      android:name="AuiColor"
+      android:value="false" />
+
+    <activity
+      android:name=".FileMgrMainActivity"
+      android:label="@string/app_name"
+      android:launchMode="singleTop"
+      android:uiOptions="none"
+      android:windowSoftInputMode="adjustNothing"
+      android:configChanges="orientation|keyboardHidden|screenSize"
+      android:theme="@style/Theme.AliFileMgr"
+      android:screenOrientation="portrait"
+      android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.aliyunos.filemanager" />
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.filemanager.cloud" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+      android:name=".GetContextActivity"
+      android:uiOptions="none"
+      android:configChanges="orientation|keyboardHidden|screenSize"
+      android:theme="@style/Theme.AliFileMgrGetContext"
+        android:screenOrientation="portrait"
+      android:exported="true">
+      <intent-filter>
+          <action android:name="android.intent.action.GET_CONTENT" />
+          <category android:name="android.intent.category.OPENABLE" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <data android:mimeType="*/*" />
+      </intent-filter>
+      <intent-filter>
+          <action android:name="android.intent.action.PICK" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="file" />
+          <data android:scheme="folder" />
+          <data android:scheme="directory" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PICK" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:mimeType="audio/*" />
+        <data android:mimeType="vnd.android.cursor.dir/audio" />
+      </intent-filter>
+      <intent-filter>
+          <action android:name="aliyun.intent.action.browse" />
+          <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+
+  </application>
+</manifest>

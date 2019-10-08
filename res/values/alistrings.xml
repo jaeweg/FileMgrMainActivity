@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ali_order_name">Name</string>
+    <string name="ali_order_size">Size</string>
+    <string name="ali_order_date">Created on</string>
+    <string name="ali_order_type">Type</string>
+    <string name="No_item_display">No files</string>
+    <string name="No_item_Searched">No matched results</string>
+
+    <string name="ali_unzip">Extract</string>
+    <string name="ali_zip">Compress</string>
+    <string name="ali_localstorage">Local storage</string>
+    <string name="ali_item">&#160;item(s)</string>
+    <string name="ali_emptyfolder">Empty</string>
+
+    <string name="CategoryBrowse">Category</string>
+    <string name="AllFiles">My files</string>
+    <string name="OnlineFiles">Online files</string>
+
+    <string name="CategoryItemNone">Others</string>
+    <string name="CategoryItemPic">Image</string>
+    <string name="CategoryItemMusic">Music</string>
+    <string name="CategoryItemVideo">Video</string>
+    <string name="CategoryItemApk">APK</string>
+    <string name="CategoryItemZip">Zip</string>
+    <string name="CategoryItemText">Document</string>
+    <string name="CategoryNumNone">0</string>
+    <string name="capacity_all">Total space:</string>
+    <string name="capacity_avail">Available:</string>
+
+    <string name="actions_menu_Sort">Sort</string>
+    <string name="actions_menu_Share">Share</string>
+    <string name="actions_menu_Copy">Copy</string>
+    <string name="actions_menu_Paste">Paste</string>
+    <string name="actions_menu_Delete">Delete</string>
+    <string name="actions_menu_Cut">Cut</string>
+    <string name="actions_menu_Detail">Details</string>
+    <string name="actions_menu_NewDir">New folder</string>
+    <string name="actions_menu_ShowHideFile">Show hidden files</string>
+    <string name="actions_menu_NotShowHideFile">Don\'t show hidden files </string>
+    <string name="actions_menu_Crush">Crush</string>
+    <string name="actions_menu_Zip">Zip</string>
+    <string name="actions_menu_Refresh">Refresh</string>
+    <string name="actions_menu_Rename">Rename</string>
+    <string name="actions_menu_CloseCloud">Turn off</string>
+    <string name="ali_scan_file">Indexing file...</string>
+    <string name="ali_read_file">Loading...</string>
+
+    <string name="numberOfSelected">Selected(%1$d)</string>
+
+    <string name="login">Login</string>
+    <string name="login_welcome">Free cloud storage for you.</string>
+    <string name="nonetwork_tips">No network access, set up now?</string>
+    <string name="download_tips">No available WLAN, sure to download files over mobile data?</string>
+    <string name="upload_tips">No available WLAN, sure to upload files over mobile data?</string>
+    <string name="network_error">Network error, please retry</string>
+    <string name="transfer_file_not_exist">File does not exist, please retry</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="copying">Copying</string>
+    <string name="deleting">Deleting</string>
+    <string name="cutting">Cutting</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="actions_title_Share">Share on</string>
+
+    <string name="detail_title">Show details page</string>
+    <string name="detail_path">Path:</string>
+    <string name="detail_size">Size:</string>
+    <string name="detail_time">Time:</string>
+    <string name="detail_readable">Readable:</string>
+    <string name="detail_writeable">Writable:</string>
+    <string name="detail_hide">Hidden:</string>
+    <string name="ali_open_mimetype_text">Texts</string>
+    <string name="ali_open_mimetype_audio">Audios</string>
+    <string name="ali_open_mimetype_video">Videos</string>
+    <string name="ali_open_mimetype_image">Images</string>
+    <string name="ali_iknow">OK</string>
+
+    <string name="ok" >OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="setting">Setting</string>
+    <string name="ali_openfile_error">No application can open the file!</string>
+    <string name="ali_openfile_error11">Oops, file is not exsit!</string>
+    <string name="ali_openfile_error12">File can not be opened!</string>
+    <string name="newfolder_title">new folder</string>
+    <string name="ali_dirNameEmtpy">Invalid name or out of storage</string>
+    <string name="name_too_long"> This file name is too long! Please make sure that the file name length is less than 85 words</string>
+    <string name="input_dir_name">Please enter the name:</string>
+    <string name="dialog_title_do_Zip">Compressing file</string>
+    <string name="not_select_anyfile">not select any file</string>
+
+    <string name="sdcard_busy_message">Unable to use in USB drive mode</string>
+
+    <!-- Default buttons -->
+    <string name="cancel" >Cancel</string>
+    <string name="ali_ZipError">Failed to compress</string>
+    <string name="actions_title_Zip">Compress to</string>
+    <string name="ali_NotEnoughSpace">Out of storage, please clean the system space and retry</string>
+    <string name="dialog_title_do_Unzip">Extracting file</string>
+    <string name="dialog_title_analyze_file">Analyze package...</string>
+    <string name="same_name_file_exist">Cover the same file</string>
+    <string name="same_file_zipped">Zip the same file</string>
+    <string name="select_unzip_path">please select path to unzip file</string>
+
+    <string name="dialog_title_rename">Rename file</string>
+
+    <string name="DeleteFileWarnning">Sure to delete the selected?</string>
+    <string name="CrushFileWarnning">Selected file will be deleted permanently, and could not be restored by recovery utilities.</string>
+
+    <string name="dialog_title_do_copy">Copy file</string>
+    <string name="dialog_title_do_cut">Cut file</string>
+    <string name="dialog_title_do_delete">Delete file</string>
+    <string name="dialog_title_do_crush_delete">Crushing file</string>
+
+    <string name="read_to_download">Ready to download</string>
+    <string name="read_to_upload">Ready to upload</string>
+    <string name="downloading">Downloading</string>
+    <string name="uploading">Uploading</string>
+
+    <string name="cut_failed">Cut file failed</string>
+    <string name="copy_failed">Copy file failed</string>
+    <string name="delete_failed">Delete file failed</string>
+    <string name="rename_failed">Rename file failed</string>
+    <string name="new_folder_failed">New folder failed</string>
+    <string name="ali_dirIsExist">This name is already taken</string>
+    <string name="file_write_failed">File write failed</string>
+    <string name="RenameFileExist">File exists</string>
+    <string name="rename_failed_for_same_name">Same File exists，rename failed</string>
+    <string name="skip">Skip</string>
+    <string name="login_detail">Securely store your files in YunOS cloud and access them from your YunOS phone,my.yunos.com.</string>
+    <string name="login_detail2"></string>
+    <string name="obtain">Get Now</string>
+    <string name="cloud_start">Start now</string>
+    <string name="cloud_open">Turn on</string>
+    <string name="close_cloud_dailog_title">Turn off</string>
+    <string name="close_cloud_dailog_msg">Store files in YunOS driver is unavailable if you turn off it,are you sure to continue?</string>
+    <string name="bt_close">Yes</string>
+    <string name="drive_get_tips">Congratulations,you have got %1$dTB drive space!</string>
+    <string name="ali_share_fold">Do not support to share folder</string>
+    <string name="change_ext_alert_info">Changing the extension may cause the file to be unavailable. Are you s
+ure you want to change the extensions?</string>
+    <string name="hw_search_view_cancel">Cancel</string>
+    <string name="err_same_name_file_exist">There is same name file exist current director</string>
+    <string name="ali_need_exec_by_fmgr">You need open it by File Manager</string>
+
+    <!-- [[ YunOS BEGIN PB
+    //##module:(AliFileBrowser) ##author:wb-jg257824
+    //##BugID:(8867472)  ##date:2016-12-29 11:05 -->
+    <string name="available_space_difference_hint">The available space at here is slightly different from the system setting.Take this as accurate.</string>
+    <!-- YunOS END PB ]] -->
+    <string name="cloud_space_warning_msg">Cloud storage is running out soon, please make sure your storage is enough to enable sync or backup.</string>
+    <string name="cloud_space_no_enough_msg">Sync/backup failed due to storage is full, please make sure your storage is enough to enable sync/backup.</string>
+    <string name="manage_storage">Manage storage</string>
+    
+    <!--add by huangjiawei begin  20170703-->
+    <string name="doov_share_limit">Every time can share a maximum of 200 files</string>
+    <!--add by huangjiawei end  -->
+    
+    <!--add by huangjiawei begin  20170727-->
+    <string name="doov_contain_specialchar">The filename does not support the following characters:\"&#160;\\&#160;/&#160;:&#160;"&#160;*&#160;?&#160;&lt;&#160;&gt;&#160;|</string>
+    <!--add by huangjiawei end  -->
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="hw_searchview_back" />
+    <item type="id" name="hw_searchview_mask" />
+    <item type="id" name="hw_searchview_atext" />
+    <item type="id" name="hw_viewstub_searchview_atext" />
+    <item type="id" name="hw_searchview_domain" />
+    <item type="id" name="hw_searchview_divider" />
+    <item type="id" name="hw_searchview_icon" />
+</resources>

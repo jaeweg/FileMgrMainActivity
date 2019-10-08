@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2013 The Aliyunos Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The default background color -->
+    <color name="default_background">#ffffffff</color>
+
+    <!-- A black color with some transparency -->
+    <color name="black_transparent">#99000000</color>
+    <!-- A derivated blue from @android:color/holo_blue_light with some transparency -->
+    <color name="blue_transparent">#9933b5e5</color>
+
+    <!-- Disk usage total color -->
+
+
+
+    <!-- Divider - Normal -->
+    <color name="divider_color">#90909090</color>
+    <!-- Divider - Light -->
+    <color name="divider_color_light">#50505050</color>
+
+    <!-- Execution console -->
+    <color name="console_fg">#99FFFFFF</color>
+    
+    <color name="image_color">#fffe6852</color>
+    <color name="audio_color">#fffea120</color>
+    <color name="video_color">#ff89d63d</color>
+    <color name="apk_color">#ffb889e6</color>
+    <color name="document_color">#ff73ace6</color>
+    <color name="archive_color">#ff56bfbf</color>
+    <color name="other_color">#ffbf9156</color>
+    <color name="capacity_bar_bg_color">#ffb1b1b1</color>
+    
+    <color name="tab_text">#ff9ecd71</color>
+    <!-- view pager tab indicator -->
+    <color name="ali_hw_vp_tab_indicator_selected_color">#FF52B800</color>
+    <color name="ali_hw_vp_tab_indicator_unselected_color">#FF808080</color>
+    <color name="crumbs_text_color">#333333</color>
+    <color name="button_text_color_ok">#7f7f7f</color>
+    <color name="button_text_color_ok_disable">#997f7f7f</color>
+
+    <color name="navigation_list_background">#ffffff</color>
+    <color name="navigation_list_stroke">#cbcbcb</color>
+    <color name="navigation_list_press_background">#f2f2f2</color>
+    <color name="navigation_list_press_stroke">#cbcbcb</color>
+    <color name="list_item_title_color">#333333</color>
+    <color name="list_item_sub_title_color">#7f7f7f</color>
+    <color name="action_bar_background_color">#ffe7b50b</color>
+
+    <color name="file_list_primary_color">#333333</color>
+    <color name="file_list_secondary_color">#999999</color>
+    <color name="skip_text_color">#01cc9a</color>
+    <color name="login_sub_title_color">#999999</color>
+    <drawable name="footerbar_popup_window_background_color">#50323232</drawable>
+
+    <!--search view -->
+    <color name="hw_search_view_cancel_pressed">#99333333</color>
+    <color name="hw_search_view_cancel_focused">#99333333</color>
+    <color name="hw_search_view_cancel_selected">#99333333</color>
+    <color name="hw_search_view_cancel_default">#333333</color>
+
+    <color name="hw_action_bar_search_view_background">#ffffff</color>
+
+    <color name="hw_color_primary">#01cc99</color>
+    <color name="hw_color_primary_dark">#01ae82</color>
+    <color name="hw_color_primary_disabled">#99ebd6</color>
+    <color name="hw_color_primary_disabled_inner">#d6d6d6</color>
+
+</resources>

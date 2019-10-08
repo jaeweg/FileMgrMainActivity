@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filelist_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <include
+        android:id="@+id/filelist_dir"
+        layout="@layout/directory_bar" />
+
+    <com.aliyunos.filemanager.ui.view.ScrollOverListView
+        android:id="@+id/scroll_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/filelist_dir"
+        android:divider="@null"
+        android:layout_above="@+id/footbar_menu">
+    </com.aliyunos.filemanager.ui.view.ScrollOverListView>
+
+    <ImageView
+        android:id="@+id/empty_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filelist_dir"
+        android:background="@drawable/ic_file_empty_normal"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/no_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_pic"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="@string/No_item_display"
+         />
+
+    <TextView
+        android:id="@+id/nosearch_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filelist_dir"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="@string/No_item_Searched"
+        />
+
+    <TextView
+        android:id="@+id/indexing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ali_scan_file"
+        android:layout_below="@id/filelist_dir"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/footbar_menu"
+        android:layout_width="match_parent"
+        style="@style/HWDroid.Widget.FooterBar"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+
+    </LinearLayout>
+</RelativeLayout>

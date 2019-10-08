@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cloud_view_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/login_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/logo_image"
+            android:contentDescription="@string/app_description"
+            android:src="@drawable/filemanager_yunpan_login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/login_welcome"
+            android:textColor="@color/crumbs_text_color"
+            android:textSize="@dimen/title_text_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/logo_image"
+            android:layout_marginTop="34dp"
+            android:text="@string/login_welcome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/login_detail"
+            android:textColor="@color/login_sub_title_color"
+            android:textSize="@dimen/secondary_text_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/login_welcome"
+            android:layout_marginTop="6dp"
+            android:text="@string/login_detail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/login_sub_title_color"
+            android:textSize="@dimen/secondary_text_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/login_detail"
+            android:layout_marginTop="5dp"
+            android:text="@string/login_detail2"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/login"
+            android:textColor="@color/button_text"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:id="@+id/open_cloud_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/cloud_open"
+            android:textColor="@color/button_text"
+            android:background="@drawable/button_bg"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_network_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/online_subtypes_no_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dip"
+            android:drawableTop="@drawable/ic_appstore_blanknowlan"
+            android:drawablePadding="24dp"
+            android:gravity="center"
+            android:text="@string/network_error" />
+
+        <Button
+            android:id="@+id/online_subtypes_no_network_btn"
+            android:layout_width="112dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dip"
+            android:layout_below="@id/online_subtypes_no_network"
+            android:layout_centerHorizontal="true"
+            android:text="@string/actions_menu_Refresh"
+            android:textColor="@color/button_text"
+            android:background="@drawable/button_bg"/>
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/cloud_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout="@layout/filelist_view">
+    </ViewStub>
+</FrameLayout>

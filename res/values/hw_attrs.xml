@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sytem color related attributes -->
+    <declare-styleable name="SysColor">
+        <!-- normal -->
+        <attr name="hw_colorPrimary" format="color" />
+        <!-- pressed -->
+        <attr name="hw_colorPrimaryDark" format="color" />
+        <!-- disabled-->
+        <attr name="hw_colorPrimaryDisabled" format="color" />
+         <!-- disabledInner-->
+        <attr name="hw_colorPrimaryDisabledInner" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        @aui_color_test_open@ -->
+    <color name="setting_header_color">#fffcba08</color>
+    <color name="setting_header_bottom_color">#d6d6d6</color>
+    <color name="login_button_normal_color">#01cc99</color>
+    <color name="login_button_press_color">#01cc99</color>
+    <color name="login_button_disable_color">#01cc99</color>
+    <color name="login_button_normal_text_color">#fdfdfd</color>
+    <color name="login_button_press_text_color">#fdfdfd</color>
+    <color name="login_button_disable_text_color">#fdfdfd</color>
+    <color name="select_text_color">#fdfdfd</color>
+    <color name="back_btn_color">#fdfdfd</color>
+    <color name="back_btn_color_disable">#fdfdfd</color>
+    <color name="back_btn_color_dark">#fdfdfd</color>
+    <color name="tab_text_select_color">#ffffffff</color>
+    <color name="tab_text_unselect_color">#88ffffff</color>
+    <!-- @aui_color_test_open@
+        -->
+    <!-- @aui_color_test_open@
+    <color name="setting_header_color">#fffc11ff</color>
+    <color name="setting_header_bottom_color">#f1ff0b</color>
+    <color name="login_button_normal_color">#1e007e</color>
+    <color name="login_button_press_color">#1a006b</color>
+    <color name="login_button_disable_color">#a599cb</color>
+    <color name="login_button_normal_text_color">#2ee9ff</color>
+    <color name="login_button_press_text_color">#27c6d9</color>
+    <color name="login_button_disable_text_color">#75b9dd</color>
+    <color name="select_text_color">#f1ff0b</color>
+    <color name="back_btn_color">#f1ff0b</color>
+    <color name="tab_text_select_color">#fff1ff0b</color>
+    <color name="tab_text_unselect_color">#88f1ff0b</color>
+    @aui_color_test_open@ -->
+</resources>

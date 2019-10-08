@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="4.0dip" >
+
+    <TextView
+        android:id="@+id/storage_unuse_memory_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+	    android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/capacity_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/storage_unuse_memory_id"
+        android:layout_marginTop="10dip"
+	    android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:background="@color/capacity_bar_bg_color" >
+
+        <TextView
+            android:id="@+id/capacity_progress_image"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/image_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_video"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/video_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/audio_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_document"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/document_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_apk"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/apk_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_archive"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/archive_color" />
+
+        <TextView
+            android:id="@+id/capacity_progress_other"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/other_color" />
+
+        <ImageView
+            android:id="@+id/capacity_progress_reserve"
+            android:contentDescription="@string/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aui_filemanager_high_bg" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/capacity_bar"
+	android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_description"
+        android:src="@drawable/aui_filemanager_left_bg_normal" />
+
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:contentDescription="@string/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/capacity_bar"
+	android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_gravity="right"
+        android:scaleType="fitXY"
+        android:src="@drawable/aui_filemanager_right_bg_normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/capacity_bar"
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:baselineAligned="false"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/capacity_text_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_pink_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemPic"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/capacity_text_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_brown_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemMusic"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/capacity_text_zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_cyan_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemZip"
+                android:textColor="#999999"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/capacity_text_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:layout_marginBottom="32dip"
+                android:drawableLeft="@drawable/ic_filemanager_percent_other"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemNone"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/capacity_text_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_green_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemVideo"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/capacity_text_apk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_purple_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemApk"
+                android:textColor="#999999"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/capacity_text_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Ali_Category_capacity_text_space"
+                android:drawableLeft="@drawable/ic_filemanager_blue_normal"
+                android:drawablePadding="@dimen/Ali_Category_capacity_text2icon_space"
+                android:text="@string/CategoryItemText"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

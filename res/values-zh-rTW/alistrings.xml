@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ali_order_name">名稱</string>
+    <string name="ali_order_size">大小</string>
+    <string name="ali_order_date">時間</string>
+    <string name="ali_order_type">類型</string>
+    <string name="No_item_display">無檔案</string>
+    <string name="No_item_Searched">無相關搜索結果</string>
+
+    <string name="ali_unzip">解壓縮</string>
+    <string name="ali_zip">壓縮</string>
+    <string name="ali_localstorage">本機存放區</string>
+    <string name="ali_item">項</string>
+    <string name="ali_emptyfolder">空</string>
+    <string name="ali_iknow">我知道了</string>
+
+    <string name="CategoryBrowse">分類瀏覽</string>
+    <string name="AllFiles">本地檔案</string>
+    <string name="OnlineFiles">雲盤檔案</string>
+
+    <string name="actions_menu_Sort">排序</string>
+    <string name="actions_menu_Share">分享</string>
+    <string name="actions_menu_Copy">複製</string>
+    <string name="actions_menu_Paste">貼上</string>
+    <string name="actions_menu_Delete">刪除</string>
+    <string name="actions_menu_Cut">剪下</string>
+    <string name="actions_menu_Detail">檢視詳情</string>
+    <string name="actions_menu_NewDir">新建資料夾</string>
+    <string name="actions_menu_ShowHideFile">顯示隱藏檔案</string>
+    <string name="actions_menu_NotShowHideFile">不顯示隱藏檔案</string>
+    <string name="actions_menu_Crush">粉碎</string>
+    <string name="actions_menu_Zip">壓縮</string>
+    <string name="actions_menu_Refresh">刷新</string>
+    <string name="actions_menu_Rename">重命名</string>
+    <string name="actions_menu_CloseCloud">關閉網盤</string>
+
+    <string name="CategoryItemNone">其它</string>
+    <string name="CategoryItemPic">圖片</string>
+    <string name="CategoryItemMusic">音樂</string>
+    <string name="CategoryItemVideo">影片</string>
+    <string name="CategoryItemApk">安裝封裝</string>
+    <string name="CategoryItemZip">壓縮封裝</string>
+    <string name="CategoryItemText">檔案</string>
+    <string name="CategoryNumNone">0</string>
+    <!-- {@ bird changed by qinzhifeng 20160825 begin for total size "共:" to "總存儲量:";"可用:" to "可用容量:"-->
+    <string name="capacity_all">總存儲量:</string>
+    <string name="capacity_avail">可用容量:</string>
+    <!-- bird qinzhifeng 20160825 end --> 
+
+    <string name="ali_scan_file">文件索引中...</string>
+    <string name="ali_read_file">加載中...</string>
+
+    <string name="numberOfSelected">已選取(%1$d)</string>
+
+    <string name="login">登入</string>
+    <string name="login_welcome">免費云存儲空間</string>
+    <string name="nonetwork_tips">網路未連接，前去設定？</string>
+    <string name="download_tips">當前沒有連接WLAN，您確定要使用行動網路下載檔案？</string>
+    <string name="upload_tips">當前沒有連接WLAN，您確定要使用行動網路上傳檔案？</string>
+    <string name="network_error">網路錯誤，請重試</string>
+    <string name="transfer_file_not_exist">文件不存在，請重試</string>
+    <string name="not_select_anyfile">您沒有選中任何文件</string>
+
+    <string name="refreshing">檔案刷新中</string>
+    <string name="copying">檔案複製中</string>
+    <string name="deleting">檔案删除中</string>
+    <string name="cutting">檔案剪切中</string>
+    <string name="download">下載</string>
+    <string name="upload">上傳</string>
+
+    <string name="detail_title">詳情頁顯示</string>
+    <string name="detail_path">路徑：</string>
+    <string name="detail_size">大小：</string>
+    <string name="detail_time">時間：</string>
+    <string name="detail_readable">可讀：</string>
+    <string name="detail_writeable">可寫：</string>
+    <string name="detail_hide">隱藏：</string>
+
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="setting">設定</string>
+    <string name="actions_title_Share">分享到</string>
+
+    <string name="ali_open_mimetype_text">文本</string>
+    <string name="ali_open_mimetype_audio">音訊</string>
+    <string name="ali_open_mimetype_video">影片</string>
+    <string name="ali_open_mimetype_image">圖像</string>
+
+    <string name="ali_openfile_error">沒有可以打開該文件的應用！</string>
+    <string name="ali_openfile_error11">糟糕，文檔不存在！</string>
+    <string name="ali_openfile_error12">文檔無法打開！</string>
+
+    <string name="newfolder_title">新建資料夾</string>
+    <string name="ali_dirNameEmtpy">無效的檔案名,或儲存空間不足</string>
+    <string name="name_too_long">文件名過長!請保證文件名不超過85個單詞</string>
+    <string name="input_dir_name">請輸入資料夾名稱：</string>
+
+    <string name="sdcard_busy_message">隨身碟模式下無法瀏覽檔案清單</string>
+
+    <string name="dialog_title_do_Zip">正在壓縮</string>
+
+    <string name="ali_ZipError">文件壓縮失敗</string>
+    <string name="actions_title_Zip">壓縮到</string>
+    <string name="ali_NotEnoughSpace">儲存空間不足，請清理系統空間後再試</string>
+    <string name="dialog_title_do_Unzip">正在解壓</string>
+    <string name="dialog_title_analyze_file">解析壓縮包...</string>
+    <string name="same_name_file_exist">覆蓋同名文件</string>
+    <string name="same_file_zipped">壓縮包已存在</string>
+    <string name="select_unzip_path">請選擇解壓路徑</string>
+
+    <string name="dialog_title_rename">重命名檔案</string>
+    <string name="DeleteFileWarnning">確定要刪除選中的檔案？</string>
+    <string name="CrushFileWarnning">確定要徹底粉碎選中的檔案？</string>
+
+    <string name="dialog_title_do_copy">正在複製</string>
+    <string name="dialog_title_do_cut">正在剪下</string>
+    <string name="dialog_title_do_delete">正在刪除</string>
+    <string name="dialog_title_do_crush_delete">正在徹底粉碎檔案</string>
+
+    <string name="read_to_download">準備下載</string>
+    <string name="read_to_upload">準備上傳</string>
+    <string name="downloading">正在下載</string>
+    <string name="uploading">正在上傳</string>
+
+    <string name="cut_failed">檔案剪切失敗</string>
+    <string name="copy_failed">檔案複製失敗</string>
+    <string name="delete_failed">檔案删除失敗</string>
+    <string name="rename_failed">檔案重命名失敗</string>
+    <string name="new_folder_failed">新建資料夾失敗</string>
+    <string name="ali_dirIsExist">已存在該命名的資料夾</string>
+    <string name="rename_failed_for_same_name">同名文件已存在，重命名失敗</string>
+    <string name="file_write_failed">文件寫入失敗</string>
+    <string name="RenameFileExist">已存在該命名的檔案或資料夾</string>
+    <string name="skip">跳過</string>
+    <string name="login_detail">數據安全可靠，文件隨時存取</string>
+    <string name="login_detail2">想存什麽就存什麽</string>
+    <string name="obtain">立即領取</string>
+    <string name="cloud_start">開始使用</string>
+    <string name="cloud_open">開啟雲盤</string>
+    <string name="close_cloud_dailog_title">關閉網盤</string>
+    <string name="close_cloud_dailog_msg">關閉網盤服務後，文件將無法存儲到雲端，確認關閉嗎?</string>
+    <string name="bt_close">關閉</string>
+    <string name="drive_get_tips">恭喜妳已經獲得 %1$dTB 的雲盤空間!</string>
+    <string name="ali_share_fold">不支持文件夾分享</string>
+    <string name="change_ext_alert_info">如果改變文件擴展名，可能會導致文件不可用，是否改變？</string>
+    <string name="hw_search_view_cancel">取消</string>
+    <string name="err_same_name_file_exist">當前目錄已存在同名文件</string>
+    <string name="ali_need_exec_by_fmgr">請通過文件管理器打開此文件</string>
+
+    <!-- [[ YunOS BEGIN PB
+    //##module:(AliFileBrowser) ##author:wb-jg257824
+    //##BugID:(8867472)  ##date:2016-12-29 11:05 -->
+    <string name="available_space_difference_hint">由於計算方式不同，此處顯示的可用空間與系統設置中的略有差異，實際可用空間請以此為準</string>
+    <!-- YunOS END PB ]] -->
+    <string name="cloud_space_warning_msg">您的雲存儲空間已剩餘不多，請及時清理空間或擴容以確保同步備份可用。</string>
+    <string name="cloud_space_no_enough_msg">雲存儲空間剩餘已不足，無法繼續同步/備份。請及時清理空間或擴容以確保同步備份可用。</string>
+    <string name="manage_storage">管理云空間</string>
+    
+    <!--add by huangjiawei begin  20170703-->
+    <string name="doov_share_limit">每次最多可以分享200個文件</string>
+    <!--add by huangjiawei end  -->
+    
+    <!--add by huangjiawei begin  20170727-->
+    <string name="doov_contain_specialchar">文件名不支持下列字符：\"&#160;\\&#160;/&#160;:&#160;"&#160;*&#160;?&#160;&lt;&#160;&gt;&#160;|</string>
+    <!--add by huangjiawei end  -->
+</resources>

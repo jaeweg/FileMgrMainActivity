@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/category_main_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/Category_grid"
+            android:background="#d6d6d6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:horizontalSpacing="1px"
+            android:verticalSpacing="1px"
+            android:numColumns="3" />
+
+        <!-- [[ YunOS BEGIN PB
+        //##module:(AliFileBrowser) ##author:wb-jg257824
+        //##BugID:(8867472)  ##date:2016-12-29 16:57 -->
+        <ImageView
+            android:id="@+id/iv_line"
+            android:background="#d6d6d6"
+            android:layout_below="@id/Category_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="1px" />
+        <!-- YunOS END PB ]] -->
+
+        <!-- [[ YunOS BEGIN PB
+        //##module:(AliFileBrowser) ##author:wb-jg257824
+        //##BugID:(8867472)  ##date:2016-12-29 16:57 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_line"
+            android:text="@string/available_space_difference_hint"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"/>
+        <!-- YunOS END PB ]] -->
+
+        <include
+            android:id="@+id/category_capacity_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            layout="@layout/category_capacity" />
+
+    </RelativeLayout>
+    
+    <ViewStub
+        android:id="@+id/category_subtypes_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout="@layout/filelist_view" />
+
+</FrameLayout>

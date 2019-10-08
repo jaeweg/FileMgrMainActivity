@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true">
+        <nine-patch android:src="@drawable/account_btn_login_normal" android:tint="@color/login_button_disable_color"/>
+    </item>
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/account_btn_login_normal" android:tint="@color/login_button_normal_color"/>
+    </item>
+    <item android:state_enabled="false" android:state_focused="false">
+        <nine-patch android:src="@drawable/account_btn_login_disable" android:tint="@color/login_button_disable_color" />
+    </item>
+    <item android:state_enabled="false" android:state_pressed="false">
+        <nine-patch android:src="@drawable/account_btn_login_disable" android:tint="@color/login_button_disable_color" />
+    </item>
+    <item android:state_enabled="false" android:state_pressed="true">
+        <nine-patch android:src="@drawable/account_btn_login_disable" android:tint="@color/login_button_disable_color" />
+    </item>
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/account_btn_login_disable" android:tint="@color/login_button_disable_color" />
+    </item>
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/account_btn_login_pressed" android:tint="@color/login_button_press_color" />
+    </item>
+    <item android:state_enabled="true">
+        <nine-patch android:src="@drawable/account_btn_login_normal" android:tint="@color/login_button_normal_color" />
+    </item>
+</selector>

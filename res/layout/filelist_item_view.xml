@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aliyunos.filemanager.ui.view.FileListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HWDroid.ListItemViewStyle"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/filelist_item_border">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/filelist_item_left_drawable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/filelist_item_left_icon"
+                    style="@style/HWDroid.ListItemViewDrawableStyle"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <ImageView
+                    android:id="@+id/download_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/filelist_item_left_icon"
+                    android:layout_alignRight="@+id/filelist_item_left_icon"
+                    android:src="@drawable/ic_filemanager_download_normal"
+                    android:visibility="invisible"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/filelist_item_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ListItemTextStyle" />
+
+                    <TextView
+                        android:id="@+id/filelist_item_divide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/list_item_sub_title_color"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+
+                    <TextView
+                        android:id="@+id/filelist_item_apptext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/list_item_sub_title_color"
+                        android:layout_marginTop="0dp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/filelist_item_subtext"
+                    style="@style/ListItemTextSecondaryStyle"
+                    android:layout_below="@id/text_layout" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/filelist_item_right_widget"
+        style="@style/HWDroid.RightWidget"
+        android:orientation="vertical" />
+
+</com.aliyunos.filemanager.ui.view.FileListItemView>
